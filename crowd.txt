@@ -1,0 +1,48 @@
+o bleacher
+t 0.0 12.0 400.0
+r 0.0 3.14159265359 0.0
+
+o person
+s 12.0 12.0 1.0
+t 0.0 -1.0 27.0
+pa bleacher
+
+o person3
+s 10.0 10.0 1.0
+t 15.0 -1.0 27.0
+pa bleacher
+
+o person3
+s 10.0 10.0 1.0
+t -20.0 -1.0 27.0
+pa bleacher
+
+o person2
+s 12.0 12.0 1.0
+t 5.0 4.0 17.0
+pa bleacher
+
+o person
+s 12.0 12.0 1.0
+t -38.0 10.0 7.0
+pa bleacher
+
+o person2
+s 12.0 12.0 1.0
+t -27.0 10.0 7.0
+pa bleacher
+
+o person2
+s 12.0 12.0 1.0
+t 27.0 17.0 -3.0
+pa bleacher
+
+o person
+s 12.0 12.0 1.0
+t 15.0 17.0 -3.0
+pa bleacher
+
+o person3
+s 10.0 10.0 1.0
+t 38.0 17.0 -3.0
+pa bleacher

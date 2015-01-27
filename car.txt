@@ -1,0 +1,26 @@
+o body
+t 0.0 1.0 0.0
+p -20.0 0.0 230.0
+ro 1.57079632679
+
+o ftyre
+t -3.5 1.0 6.1
+pa body
+
+o ftyre
+t 3.5 1.0 6.1
+r 0.0 3.14159265359 0.0
+pa body
+
+o btyre
+t 3.3 1.0 -7.4
+pa body
+
+o btyre
+t -3.3 1.0 -7.4
+r 0.0 3.14159265359 0.0
+pa body
+
+o glass
+t 0.0 3.11 0.0
+pa body

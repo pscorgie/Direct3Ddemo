@@ -1,0 +1,89 @@
+﻿Build started 27/01/2015 22:53:09.
+     1>Project "C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\DX11 Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Application.cpp BillBoard.cpp Camera.cpp Car.cpp ContentLoader.cpp DDSTextureLoader.cpp "DX11 Framework.cpp" Game.cpp GameObject.cpp MiniMap.cpp OBJLoader.cpp OrthoCamera.cpp SkyBox.cpp
+         Application.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(72): warning C4244: 'argument' : conversion from 'UINT' to 'FLOAT', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(448): warning C4100: 'btnState' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(455): warning C4100: 'y' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(455): warning C4100: 'x' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(455): warning C4100: 'btnState' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(525): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(526): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(523): warning C4189: 'blendFactor' : local variable is initialized but not referenced
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(627): warning C4102: 'caseWM_RBUTTONUP' : unreferenced label
+         BillBoard.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+         Camera.cpp
+         Car.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(41): warning C4130: '==' : logical operation on address of string constant
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(47): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(51): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(59): warning C4130: '==' : logical operation on address of string constant
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(61): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(73): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(83): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(91): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(70): warning C4100: 't' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(194): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\car.cpp(203): warning C4100: 'pImmediateContext' : unreferenced formal parameter
+         ContentLoader.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+         DDSTextureLoader.cpp
+         DX11 Framework.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+         Game.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\game.cpp(141): warning C4100: 't' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\game.cpp(301): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\game.cpp(310): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\game.cpp(292): warning C4189: 'blendFactor' : local variable is initialized but not referenced
+         GameObject.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.cpp(68): warning C4189: 'Position' : local variable is initialized but not referenced
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.cpp(130): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.cpp(142): warning C4100: 'elapsedTime' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.cpp(147): warning C4100: 'pd3dDevice' : unreferenced formal parameter
+         MiniMap.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(95): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(96): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(114): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(115): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(122): warning C4238: nonstandard extension used : class rvalue used as lvalue
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\minimap.cpp(126): warning C4238: nonstandard extension used : class rvalue used as lvalue
+         OBJLoader.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+         OrthoCamera.cpp
+         SkyBox.cpp
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\gameobject.h(34): warning C4100: 'pos' : unreferenced formal parameter
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\skybox.cpp(30): warning C4238: nonstandard extension used : class rvalue used as lvalue
+         Generating Code...
+     1>c:\users\peter\downloads\cose50581 framework\cose50581 framework\application.cpp(634): warning C4715: 'Application::HandleMouse' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\DX11 Framework.res" "DX11 Framework.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\Debug\DX11 Framework.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dcompiler.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\Debug\DX11 Framework.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\Debug\DX11 Framework.lib" /MACHINE:X86 /SAFESEH  "Debug\DX11 Framework.res"
+         Debug\Application.obj
+         Debug\BillBoard.obj
+         Debug\Camera.obj
+         Debug\Car.obj
+         Debug\ContentLoader.obj
+         Debug\DDSTextureLoader.obj
+         "Debug\DX11 Framework.obj"
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\MiniMap.obj
+         Debug\OBJLoader.obj
+         Debug\OrthoCamera.obj
+         Debug\SkyBox.obj
+     1>Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         DX11 Framework.vcxproj -> C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\Debug\DX11 Framework.exe
+     1>Done Building Project "C:\Users\Peter\Downloads\COSE50581 Framework\COSE50581 Framework\DX11 Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.96
